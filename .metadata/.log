@@ -1484,3 +1484,120 @@ org.eclipse.jgit.errors.TransportException: https://github.com/msaimadh/Day10.gi
 
 !ENTRY org.eclipse.egit.ui 4 0 2018-09-05 08:59:52.620
 !MESSAGE Can't connect to any repository: https://github.com/msaimadh/Day10.git (https://github.com/msaimadh/Day10.git: not authorized)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2018-09-06 02:56:57.440
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\rt.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\annotations-api.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\catalina-ant.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\catalina-ha.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\catalina-storeconfig.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\catalina-tribes.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\catalina.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\ecj-4.7.3a.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\el-api.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\jasper-el.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\jasper.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\jaspic-api.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\jsp-api.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\servlet-api.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\tomcat-api.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\tomcat-coyote.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\tomcat-dbcp.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\tomcat-i18n-es.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\tomcat-i18n-fr.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\tomcat-i18n-ja.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\tomcat-i18n-ru.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\tomcat-jdbc.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\tomcat-jni.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\tomcat-util-scan.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\tomcat-util.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\tomcat-websocket.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\websocket-api.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-06 07:29:45.631
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2018-09-06 07:52:11.877
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_121\lib\rt.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\annotations-api.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\catalina-ant.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\catalina-ha.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\catalina-storeconfig.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\catalina-tribes.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\catalina.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\ecj-4.7.3a.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\el-api.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\jasper-el.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\jasper.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\jaspic-api.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\jsp-api.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\servlet-api.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\tomcat-api.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\tomcat-coyote.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\tomcat-dbcp.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\tomcat-i18n-es.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\tomcat-i18n-fr.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\tomcat-i18n-ja.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\tomcat-i18n-ru.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\tomcat-jdbc.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\tomcat-jni.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\tomcat-util-scan.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\tomcat-util.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\tomcat-websocket.jar
+  [+] C:\SOFTWARES\apache-tomcat-9.0.11\apache-tomcat-9.0.11\lib\websocket-api.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
